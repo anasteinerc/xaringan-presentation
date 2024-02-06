@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Landsat Data</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ana Steiner" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Landsat Data
+]
+.subtitle[
+## Landsat sensors - Week 2
+]
+.author[
+### Ana Steiner
+]
+.institute[
+### UCL
+]
+.date[
+### 2024/01/24 (updated: 2024-01-26)
+]
+
+---
+
+
+# Slide 1: Introduction
+## It has played a pivotal role in understanding our planet's dynamic change by providing critical Earch observation data. The satellites have been working for more than 50 years and have contributed with essential data that showcases environmental and demographic changes.
+
+---
+#Slide 2: Satellites
+##  There have been 9 satellitles in its history.
+
+##Graph of all 9 Landsat satellites
+
+![](/Users/USUARIO/Documents/landsat satellites.png)
+
+---
+
+# Slide 3: Sensors
+## The Landsat program employs Earth-observing satellites, each equipped with specialized sensors, such as the Operational Land Imager and Thermal Infrared Sensor. These sensors capture data across multiple spectral bands, offering valuable insights into Earth's surface properties.
+
+## Satellites capture imagery at consistent local times. With a revisit time of 16 days, it provides a consistent archive of global land observations, making it an invaluable resource for researchers and policymakers.
+
+---
+
+# Slide 4: Application in Environmental Monitoring
+## Landsat data has been instrumental in allowing scientists to track deforestation rates, monitor land cover changes. 
+
+#Images of a large river flooding in Poland
+
+![](/Users/USUARIO/Documents/environmental degradation.jpg)
+
+---
+
+# Slide 5: Application in Agriculture and Food Security
+## Landsat's role in precision agriculture and crop health monitoring supports global food security efforts. By measuring crop changes and identifying crop yields it has been used to optimize farming practices. Landsat contributes to sustainable agriculture and the world's growing demand for food production.
+
+##The project TerraPulse has used Landsat data to identify sustainable opportunities for agriculture that does not degradate the enviroment and ensures food security.
+---
+
+# Slide 6: Application in Urban Planning and Infrastructure
+## Landsat's archive facilitates urban growth analysis, land use planning, and infrastructure development. 
+
+#Urbanization changes in Yokyo
+
+![](/Users/USUARIO/Documents/urbanization tokyo.jpg)
+
+---
+
+#Slide 7: Case study - Colombia
+
+## For me, an interesting case of Landsat imagery use was it's monitoring of Colombia's snow peaks. These have sadly melted over time, Colombia has passed from having more than 5 snow peaks to currently having 2. 
+
+![](/Users/USUARIO/Documents/santa marta.jpg)
+
+---
+
+# Slide 8: Importance 
+## The main significance of Landsat data is the archive that they have of the last 50 years. Both in environmental and urban studies, this collectin of data has been used to measure different demographic, economic and enviromnetal changes as well as help prove climate change and environmental degradation. 
+
+---
+
+# Slide 9: Improvements
+## Landsat 9 has reduced the data gap as was intended with it's creation. It now has an increased global view of land and water coverage, making it's data more large-scale but at the same time more exact and reliable. 
+
+##Data recollected with each satellite
+
+![](/Users/USUARIO/Documents/landsat data archive.png)
+
+---
+
+# Slide 10: Bibliography
+
+https://earthobservatory.nasa.gov/images/85673/sierra-nevada-de-santa-marta
+https://earthobservatory.nasa.gov/images/44102/vistula-river-flooding-southeastern-poland
+https://landsat.gsfc.nasa.gov/satellites/landsat-9/
+https://www.sciencedirect.com/science/article/pii/S0034425712003653
+https://study.com/academy/lesson/what-is-the-landsat-program-importance-history.html
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
